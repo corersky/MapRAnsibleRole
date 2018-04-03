@@ -117,7 +117,7 @@ oozie_smtp_password:
 # passwd is mapr
 mapr_passwd: $6$GzlcP5ei$E6P9QM40O6KJFLZ3wMcg3jzQBNxGXrf8yc77CbCmf0KtFSxK0mpCParhc3WVNEAm4fHKPAqyRV9rsiF6DAFlW0
 
-disks: /dev/nvme1n1,/dev/nvme2n1,/dev/nvme3n1
+disks: /dev/sdc
 disk_storage_pool_size: 3
 
 # Third party components

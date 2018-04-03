@@ -1,0 +1,5 @@
+- import_playbook: mapr-include-vars.yml
+- name: Install Installer
+  hosts: mapr-installer
+  roles:
+    - ../roles/ui-setup-init
